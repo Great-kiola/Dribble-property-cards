@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.5;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:root{
+    --contColor: #f7f8f9ff;
+    --cardColor: #fff;
+    --subtleColor: #50b1c9;
+    --soldOut: #0266ffff;
+    --canceled: #ff6c66ff;
+    --active: #54be95ff;
+    --upcoming: #56657fff;
+    --textColor: #010e39ff;
+}
+
