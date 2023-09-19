@@ -93,6 +93,60 @@ i{
     padding: 0px 15px 0px 0px;
 }
 
+.imgDiv{
+    position: relative;
+}
+
+.status{
+    position: absolute;
+    font-weight: 400;
+    font-size: .9rem;
+    top: 10px;
+    left: 20px;
+    background-color: var(--cardColor);
+    padding: 3px 20px 3px 30px;
+    border-radius: 20px;
+}
+
+.status::before{
+    content: "";
+    background-color: var(--active);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: 9px;
+    left: 15px;
+}
+
+.actions{
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+}
+
+.uil-heart, .uil-link{
+    background-color: var(--textColor);
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 50px;
+    color: var(--contColor);
+    font-size: 1.2rem !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.uil-heart:hover, .uil-link:hover{
+    background-color: var(--soldOut);
+}   
+
 .imgDiv img{
     width: 450px;
     border-radius: 20px;
