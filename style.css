@@ -17,16 +17,80 @@ body{
 }
 
 .container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card{
     background-color: var(--cardColor);
-    padding: 20px;
+    padding: 25px;
     border-radius: 20px;
-    /* min-width: 500px; */
-    /* height: 200px; */
+}
+
+.apartDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto;
+}
+
+.heading h1{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.heading h2{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--iconCol);
+}
+
+.price .amount{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--subtleColor);
+    text-align: right;
 }
 
 i{
-    font-size: 2.8rem;
-    color: var();
+    font-size: 1.5rem;
+    color: var(--iconCol);
+}
+
+.iconDiv{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.finance{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--contColor);
+    padding: 25px;
+    border-radius: 15px;
+    margin: 15px auto;
+}
+
+.finance h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--iconCol);
+}
+
+.finance p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--subtleColor);
+}
+
+.tokenPrice, .projIRR{
+    border-right: 2px solid var(--iconCol2);
+    padding: 0px 15px 0px 0px;
 }
 
 .imgDiv img{
@@ -43,5 +107,7 @@ i{
     --active: #54be95ff;
     --upcoming: #56657fff;
     --textColor: #010e39ff;
+    --iconCol: #445572;
+    --iconCol2: #abbbd561;
 }
 
