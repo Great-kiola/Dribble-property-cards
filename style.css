@@ -18,13 +18,20 @@ body{
 
 .container {
     background-color: var(--cardColor);
-    width: 500px;
-    height: 200px;
+    padding: 20px;
+    border-radius: 20px;
+    /* min-width: 500px; */
+    /* height: 200px; */
 }
 
 i{
     font-size: 2.8rem;
     color: var();
+}
+
+.imgDiv img{
+    width: 450px;
+    border-radius: 20px;
 }
 
 :root{
