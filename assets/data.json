@@ -1,16 +1,31 @@
 [
     {
         "status": "Active",
-        "name": "Tranquil Home",
-        "location": "Canada, Toronto",
-        "price": "$350,000",
-        "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        "name": "Luxe Apt",
+        "location": "USA, New York City",
+        "price": "$220,000",
+        "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+        "bath": 1,
+        "bed": 2,
+        "sqrFt": 150,
+
+        "tokenPrice": 50,
+        "pIRR": 12.3,
+        "pAPR": 10.5
     },
+
     {
-        "status": "Cancelled",
+        "status": "Active",
         "name": "Tranquil Home",
-        "location": "Canada, Vancouver",
-        "price": "500,000",
-        "url": "https://images.unsplash.com/photo-1560448204-61dc36dc98c8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        "location": "Canada, Ontario",
+        "price": "$350,000",
+        "url": "https://images.unsplash.com/photo-1560440021-33f9b867899d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1918&q=80",
+        "bath": 3,
+        "bed": 2,
+        "sqrFt": 225,
+
+        "tokenPrice": 50,
+        "pIRR": 8.0,
+        "pAPR": 7.6
     }
 ]
