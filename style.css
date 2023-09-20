@@ -16,10 +16,13 @@ body{
     background-color: var(--contColor);
 }
 
-#container {
-    display: flex;
+#master {
+    /* display: flex; */
     align-items: center;
     gap: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
 }
 
 #card{
@@ -115,7 +118,7 @@ i{
 
 .imgDiv img{
     width: 150%;
-    background-position: center;
+    background-position: center center;
 }
 
 
