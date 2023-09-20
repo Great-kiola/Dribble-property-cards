@@ -24,8 +24,9 @@ body{
 
 .card{
     background-color: var(--cardColor);
-    padding: 25px;
+    padding: 15px;
     border-radius: 20px;
+    width: 300px;
 }
 
 .apartDetails{
@@ -33,28 +34,33 @@ body{
     align-items: center;
     justify-content: space-between;
     margin: 15px auto;
+    width: 100%;
 }
 
 .heading h1{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
 .heading h2{
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: 400;
     color: var(--iconCol);
 }
 
 .price .amount{
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 500;
     color: var(--subtleColor);
     text-align: right;
 }
 
+.price p{
+    font-size: .9rem;
+}
+
 i{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--iconCol);
 }
 
@@ -71,31 +77,43 @@ i{
     align-items: center;
     justify-content: space-between;
     background: var(--contColor);
-    padding: 25px;
+    padding: 15px;
     border-radius: 15px;
-    margin: 15px auto;
+    width: 100%;
 }
 
 .finance h2{
-    font-size: 1.2rem;
+    font-size: .6rem;
     font-weight: 500;
     color: var(--iconCol);
 }
 
 .finance p{
-    font-size: 1.2rem;
+    font-size: .8rem;
     font-weight: 500;
     color: var(--subtleColor);
 }
 
 .tokenPrice, .projIRR{
     border-right: 2px solid var(--iconCol2);
-    padding: 0px 15px 0px 0px;
+    padding: 0px 7px 0px 0px;
+    margin-right: 10px;
 }
 
 .imgDiv{
     position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 20px;
 }
+
+.imgDiv img{
+    /* background-size: cover; */
+    width: 150%;
+    background-position: center;
+}
+
 
 .status{
     position: absolute;
@@ -145,12 +163,8 @@ i{
 
 .uil-heart:hover, .uil-link:hover{
     background-color: var(--soldOut);
-}   
+} 
 
-.imgDiv img{
-    width: 450px;
-    border-radius: 20px;
-}
 
 :root{
     --contColor: #f7f8f9ff;
