@@ -69,7 +69,7 @@ fetch("./assets/data.json")
 
                     <div class="car">
                         <i class="uil uil-car"></i>
-                        <span>0</span>
+                        <span>${response.car}</span>
                     </div>
                 </div>
 

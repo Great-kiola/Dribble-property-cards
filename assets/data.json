@@ -8,6 +8,7 @@
         "bath": 1,
         "bed": 2,
         "sqrFt": 150,
+        "car": 0,
 
         "tokenPrice": 50,
         "pIRR": 12.3,
@@ -22,6 +23,7 @@
         "bath": 3,
         "bed": 2,
         "sqrFt": 225,
+        "car": 2,
 
         "tokenPrice": 50,
         "pIRR": 8.0,
@@ -29,17 +31,18 @@
     },
     {
         "status": "Cancelled",
-        "name": "Tranquil Home",
-        "location": "Canada, Ontario",
-        "price": "$350,000",
+        "name": "City Loft",
+        "location": "Indonesia, Bali",
+        "price": "$400,000",
         "url": "https://images.unsplash.com/photo-1580041065738-e72023775cdc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-        "bath": 3,
-        "bed": 2,
-        "sqrFt": 225,
+        "bath": 2,
+        "bed": 1,
+        "sqrFt": 325,
+        "car": 1,
 
         "tokenPrice": 50,
-        "pIRR": 8.0,
-        "pAPR": 7.6
+        "pIRR": 28.5,
+        "pAPR": 13.3
     },
     {
         "status": "Active",
@@ -49,7 +52,8 @@
         "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80",
         "bath": 3,
         "bed": 2,
-        "sqrFt": 225,
+        "sqrFt": 175,
+        "car": 1,
 
         "tokenPrice": 50,
         "pIRR": 8.0,
@@ -64,6 +68,52 @@
         "bath": 3,
         "bed": 2,
         "sqrFt": 225,
+        "car": 1,
+
+        "tokenPrice": 50,
+        "pIRR": 8.0,
+        "pAPR": 7.6
+    },
+    {
+        "status": "Cancelled",
+        "name": "Tranquil Home",
+        "location": "Canada, Ontario",
+        "price": "$350,000",
+        "url": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "bath": 3,
+        "bed": 2,
+        "sqrFt": 225,
+        "car": 1,
+
+        "tokenPrice": 50,
+        "pIRR": 8.0,
+        "pAPR": 7.6
+    },
+    {
+        "status": "Cancelled",
+        "name": "Tranquil Home",
+        "location": "Canada, Ontario",
+        "price": "$350,000",
+        "url": "https://images.pexels.com/photos/5998120/pexels-photo-5998120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "bath": 3,
+        "bed": 2,
+        "sqrFt": 225,
+        "car": 1,
+
+        "tokenPrice": 50,
+        "pIRR": 8.0,
+        "pAPR": 7.6
+    },
+    {
+        "status": "Cancelled",
+        "name": "Tranquil Home",
+        "location": "Canada, Ontario",
+        "price": "$350,000",
+        "url": "https://images.pexels.com/photos/2079246/pexels-photo-2079246.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "bath": 3,
+        "bed": 2,
+        "sqrFt": 225,
+        "car": 1,
 
         "tokenPrice": 50,
         "pIRR": 8.0,
