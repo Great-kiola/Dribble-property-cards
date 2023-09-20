@@ -33,7 +33,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 15px auto;
+    margin: 5px auto;
     width: 100%;
 }
 
@@ -69,7 +69,7 @@ i{
     align-items: center;
     gap: 15px;
     text-align: center;
-    margin: 15px auto;
+    margin: 5px auto;
 }
 
 .finance{
@@ -109,7 +109,6 @@ i{
 }
 
 .imgDiv img{
-    /* background-size: cover; */
     width: 150%;
     background-position: center;
 }
@@ -118,7 +117,7 @@ i{
 .status{
     position: absolute;
     font-weight: 400;
-    font-size: .9rem;
+    font-size: .7rem;
     top: 10px;
     left: 20px;
     background-color: var(--cardColor);
@@ -164,6 +163,11 @@ i{
 .uil-heart:hover, .uil-link:hover{
     background-color: var(--soldOut);
 } 
+
+.uil-heart.active, .uil-link.active{
+    background-color: var(--canceled);
+    color: var(--cardColor);
+}
 
 
 :root{
