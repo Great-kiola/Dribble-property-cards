@@ -16,17 +16,18 @@ body{
     background-color: var(--contColor);
 }
 
-.container {
+#container {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.card{
+#card{
     background-color: var(--cardColor);
     padding: 15px;
     border-radius: 20px;
     width: 300px;
+    /* display: flex; */
 }
 
 .apartDetails{
