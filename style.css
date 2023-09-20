@@ -25,6 +25,8 @@ body{
     
 }
 
+
+
 #card{
     background-color: var(--cardColor);
     padding: 15px;
@@ -120,6 +122,21 @@ i{
     background-position: center center;
 }
 
+.color{
+    content: "";
+    background-color: var(--active);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+.color.active{
+    background-color: var(--canceled);
+
+}
 
 .status{
     position: absolute;
@@ -128,19 +145,8 @@ i{
     top: 10px;
     left: 20px;
     background-color: var(--cardColor);
-    padding: 3px 20px 3px 30px;
+    padding: 3px 5px 3px 20px;
     border-radius: 20px;
-}
-
-.status::before{
-    content: "";
-    background-color: var(--active);
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    position: absolute;
-    top: 9px;
-    left: 15px;
 }
 
 .actions{

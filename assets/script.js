@@ -3,8 +3,9 @@ console.log("Hello world!");
 let press = document.querySelectorAll(".press");
 let card = document.getElementById("master");
 
-const status = document.querySelector(".status");
+let color = document.querySelector('.color');
 
+const status = document.querySelector(".status");
 
 press.forEach((pressed) => {
   pressed.addEventListener("click", () => {
@@ -24,6 +25,7 @@ fetch("./assets/data.json")
                 <div class="imgDiv">
 
                     <div class="status">
+                        <div class="color"></div>
                         <p>${response.status}</p>
                     </div>
                     <img src=${response.url} alt="apartment">
@@ -89,12 +91,14 @@ fetch("./assets/data.json")
         </div>
         `;
 
-
-        if (`${response.status}` === "Cancelled"){
-            document.documentElement.style.setProperty('--active', "#ff6c66ff");
-        } else{
-            document.documentElement.style.setProperty('--active', "#0266ffff");
-        }
+        // if (`${response.status}` == "Cancelled"){
+        //     // document.documentElement.style.setProperty('--active', "#ff6c66ff");
+        //     console.log("true");
+        // } else{
+        //     // document.documentElement.style.setProperty('--active', "#0266ffff");
+        //     // color.classList.add("active");
+        //     console.log("false");
+        // }
 
 
       } catch (err) {
