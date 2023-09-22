@@ -38,6 +38,7 @@ body{
 
 .market h1{
     font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .market p{
@@ -47,6 +48,8 @@ body{
 .sort{
     display: flex;
     align-items: center;
+    text-align: center;
+    /* justify-content: center; */
     gap: 20px;
     font-size: .8rem;
 }
