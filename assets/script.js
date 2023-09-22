@@ -7,15 +7,10 @@ let color = document.querySelector('.color');
 
 const status = document.querySelector(".status");
 
-press.forEach((pressed) => {
-  pressed.addEventListener("click", () => {
-    pressed.classList.toggle("active");
-  });
-});
 
 fetch("./assets/data.json")
-  .then((res) => res.json())
-  .then((res) => {
+.then((res) => res.json())
+.then((res) => {
     console.log(res);
     for (const response of res) {
       try {
@@ -105,4 +100,12 @@ fetch("./assets/data.json")
         console.log(err);
       }
     }
-  });
+});
+
+
+press.forEach((pressed) => {
+    pressed.addEventListener("click", () => {
+      pressed.classList.toggle("active");
+    });
+});
+  

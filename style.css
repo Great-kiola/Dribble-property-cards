@@ -14,6 +14,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: var(--contColor);
+    flex-direction: column;
 }
 
 #master {
@@ -24,7 +25,39 @@ body{
     grid-template-columns: auto auto auto auto;
 }
 
+.marketplace{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cardColor);
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
 
+.market h1{
+    font-size: 1.2rem;
+}
+
+.market p{
+    font-size: .8rem;
+}
+
+.sort{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: .8rem;
+}
+
+.list, .map{
+    cursor: pointer;
+}
+
+.list:hover, .map:hover{
+    color: var(--subtleColor);
+}
 
 #card{
     background-color: var(--cardColor);
@@ -119,6 +152,12 @@ i{
 .imgDiv img{
     width: 150%;
     background-position: center center;
+    transition: all .6s ease-out;
+    cursor: pointer;
+}
+
+.imgDiv img:hover{
+    transform: scale(1.2);
 }
 
 .color{
