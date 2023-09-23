@@ -16,3 +16,7 @@ I learnt a lot of things from this simple project that i saw on dribble while br
 - I was able to work more with my positions.
 - Grid is still quite a problem, but its something i'm working on improving.
 
+
+## Acknowledgements
+
+Thanks to [Sergushkin Dmitry](https://dribbble.com/Sergushkin_Dmitry) for this amazing design and the [icodethis](https://iCodeThis.com/?ref=Greatkiola) members for the help when i got stuck when using grids.
