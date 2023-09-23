@@ -203,14 +203,11 @@ i{
     background-color: var(--textColor);
     width: 35px;
     height: 35px;
-    padding: 10px;
     border-radius: 50px;
     color: var(--contColor);
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    line-height: 1.9;
     cursor: pointer;
 }
 
