@@ -86,15 +86,6 @@ fetch("./assets/data.json")
         </div>
         `;
 
-        // if (`${response.status}` == "Cancelled"){
-        //     // document.documentElement.style.setProperty('--active', "#ff6c66ff");
-        //     console.log("true");
-        // } else{
-        //     // document.documentElement.style.setProperty('--active', "#0266ffff");
-        //     // color.classList.add("active");
-        //     console.log("false");
-        // }
-
 
       } catch (err) {
         console.log(err);
