@@ -1,7 +1,7 @@
-### Screenshot
+## Screenshot
 <img width="1152" alt="image" src="./assets/inspo img.png">
 
-# Dribble-property-cards
+## Dribble-property-cards
 This is an attempt to create a design i found on dribble and make it a draggable card.
 
 [Inspo](https://dribbble.com/shots/22273898-Blockchain-Real-Estate)
